@@ -1,0 +1,46 @@
+PODS:
+  - MondoKit (1.0.0):
+    - MondoKit/Core (= 1.0.0)
+    - MondoKit/KeyValueObserving (= 1.0.0)
+    - MondoKit/NSArray (= 1.0.0)
+    - MondoKit/NSAttributedString (= 1.0.0)
+    - MondoKit/NSCache (= 1.0.0)
+    - MondoKit/NSData (= 1.0.0)
+    - MondoKit/NSDictionary (= 1.0.0)
+    - MondoKit/NSJSONSerialization (= 1.0.0)
+    - MondoKit/NSObject (= 1.0.0)
+    - MondoKit/NSOrderedSet (= 1.0.0)
+    - MondoKit/NSSet (= 1.0.0)
+    - MondoKit/NSString (= 1.0.0)
+    - MondoKit/NSTimer (= 1.0.0)
+    - MondoKit/UIView (= 1.0.0)
+    - MondoKit/Util (= 1.0.0)
+  - MondoKit/Core (1.0.0)
+  - MondoKit/KeyValueObserving (1.0.0)
+  - MondoKit/NSArray (1.0.0)
+  - MondoKit/NSAttributedString (1.0.0)
+  - MondoKit/NSCache (1.0.0)
+  - MondoKit/NSData (1.0.0)
+  - MondoKit/NSDictionary (1.0.0)
+  - MondoKit/NSJSONSerialization (1.0.0)
+  - MondoKit/NSObject (1.0.0)
+  - MondoKit/NSOrderedSet (1.0.0)
+  - MondoKit/NSSet (1.0.0)
+  - MondoKit/NSString (1.0.0)
+  - MondoKit/NSTimer (1.0.0)
+  - MondoKit/UIView (1.0.0)
+  - MondoKit/Util (1.0.0)
+
+DEPENDENCIES:
+  - MondoKit (from `../`)
+
+EXTERNAL SOURCES:
+  MondoKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MondoKit: 1d596548c7413dc368d8d6140618e30c2bea58f4
+
+PODFILE CHECKSUM: c8500f9f5b0417bf5da5f0cd26a76e90841308f0
+
+COCOAPODS: 1.11.3

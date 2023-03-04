@@ -1,0 +1,1092 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		00905741AFA1A28946F94C7261D5E06C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		0675C449E32493FD8F130DD123F30B2B /* NSString+MondoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B8ACB37FCD062F135399D1140FF0D81 /* NSString+MondoKit.m */; };
+		0F9A7FE9387524E0FA8ECF6A4A8C0623 /* NSMutableData+MondoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A33AB0EE7484105D435CF571D1620EF /* NSMutableData+MondoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		128705FC4D92C5C4DD071D009492414F /* NSAttributedString+MondoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 96094EBB5619090B259125879151462D /* NSAttributedString+MondoKit.m */; };
+		1DEE3EC24730387C4DD4D3F9C1092D8C /* NSMutableDictionary+MondoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE7EEC7666FCB289FC56FF7DF01E009 /* NSMutableDictionary+MondoKit.m */; };
+		1E9B2FFEAE309DAA63B2F6EAD4C26766 /* NSJSONSerialization+MondoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 87D44BC53F71258EC1D0FD0424FADF49 /* NSJSONSerialization+MondoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		21351A41D3E7E11F54630CB0ED7D23B9 /* NSObject+MondoKitKVO.h in Headers */ = {isa = PBXBuildFile; fileRef = F27F909253BD437D1F78ECA513F248C1 /* NSObject+MondoKitKVO.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2301DA9A579101985323F99C20BE8860 /* NSTimer+MondoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 315C92C7E59D20D6546714E4A077B8E4 /* NSTimer+MondoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		25239F424527A5FC506C98E10A63304E /* NSMutableArray+MondoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABC32DA10C71E9C9999F92EC4D91E0C /* NSMutableArray+MondoKit.m */; };
+		28390C51A7B1EE62C8EDFB1C95C84661 /* NSMutableOrderedSet+MondoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = D6179C0C3BA1B525BADEA60498D7B1F6 /* NSMutableOrderedSet+MondoKit.m */; };
+		2B0B06F330D84237F15B5DF7A16292AD /* NSMutableDictionary+MondoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F3EB52D8943C44A0C0F0D7E40B70CB5 /* NSMutableDictionary+MondoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		32AE08F127629EE92D8A42868EB6ACEC /* NSObject+MondoKitKVO.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CF64592CE4FF0A4E22DF6530A93231B /* NSObject+MondoKitKVO.m */; };
+		38F4925E2DA3D0B0F676963ACC5EFB77 /* NSSet+MondoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = B0CD75A6BDC53FE8C3C400426635186E /* NSSet+MondoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3DBCB28FEBCBA84A3E5C875961A1F53C /* Pods-MondoKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B1B8C70E67AC5004873A6523A37F0CBB /* Pods-MondoKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		41505BFC186BAD19078E802288F91EA5 /* NSMutableString+MondoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 236602819F32E30A4930CD148B08E337 /* NSMutableString+MondoKit.m */; };
+		4515BB07040828D633DF04DF35ED9AEE /* Pods-MondoKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0B3C3B0195211831D609DBD647631F4A /* Pods-MondoKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4918D58525F4E33FB5186A236570F1C9 /* NSMutableData+MondoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BE046D1422974E4BF0AF8E4045D06C /* NSMutableData+MondoKit.m */; };
+		49B14F541C5C4DDBC502732552F9D466 /* NSData+MondoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DA44DAF6CCB431B4FD396CE8D71F3371 /* NSData+MondoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		522B771A4C58684030118B54E743BD29 /* NSArray+MondoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CBA4E9F06EA5EDB8BA5FB9EE7541B95B /* NSArray+MondoKit.m */; };
+		5B64BF06C27BFE355E0EFD48F5828585 /* MondoCFuntion.h in Headers */ = {isa = PBXBuildFile; fileRef = E926AED1EF052F792F6B41327D832F9D /* MondoCFuntion.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D0BDB968CB002CC3D7B103931F4B631 /* MondoKVOProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 564E36DA72C4AC5C64188FB275171F63 /* MondoKVOProxy.m */; };
+		5D82C8499BBDC1ECECDAE587FE5C8261 /* UIView+MondoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 1894023783B8B83AFBED7F46D263B2C3 /* UIView+MondoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5FEE75E24B130EAC27ADA1E5303E2993 /* MondoTimerInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = FE3F7A0688E8ACC56E0120C1061FD3F2 /* MondoTimerInfo.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64B5F39DAD316B33EDEFD4DA00279F8B /* NSCache+MondoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 9427B94736E249A3B9BA149598AF611D /* NSCache+MondoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		64E833ABAD07669FB3BAA5729E635975 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		6785DE92029A9B97E7D6BA04257539EB /* MondoCFuntion.m in Sources */ = {isa = PBXBuildFile; fileRef = 863DDFC0E23D705DE170A4B30B2077FC /* MondoCFuntion.m */; };
+		6866F19F4BB2E115B7061207DB6D14D3 /* NSOrderedSet+MondoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 132AEBEB65CFEC26148AC703496CD1B5 /* NSOrderedSet+MondoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		73EC70D84A99CA3C98F1F9AD0FFDA7A7 /* NSMutableString+MondoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DD324EAEB6E8326C05F2840BAD6D646C /* NSMutableString+MondoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75C9BACDE5B9C776C410671220E9F2CD /* NSData+MondoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FD5F7ED33E6D127A08FCAC271D8C000E /* NSData+MondoKit.m */; };
+		766F89CFBECDDA93FCFABB12EB906B0E /* NSMutableAttributedString+MondoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = CA50ED4E9914983192167B6D3354A948 /* NSMutableAttributedString+MondoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7B9425914D6F6E5C3095FB917ECDD2A1 /* MondoWeakProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C958D29671D1E2947A37530213F3A1C9 /* MondoWeakProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		865C53E4CF0825FA0D34CE4495055DC8 /* MondoService.h in Headers */ = {isa = PBXBuildFile; fileRef = 844E9A9624EAEE93C9CED4A4E7737025 /* MondoService.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		89113807CE36DB11C8AEBEBAF36F9FAB /* NSMutableOrderedSet+MondoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 973A0907BE94FF73BF2FB5261EA1F432 /* NSMutableOrderedSet+MondoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8F2AA734CFBA4867D28EC716C07D0ED3 /* NSMutableAttributedString+MondoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9243F9EE0DCD733F7422CF00B62580DC /* NSMutableAttributedString+MondoKit.m */; };
+		93F2099F7A61A482AE9BCD739FFEE5BA /* NSMutableSet+MondoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = ED8CBE9E4AA519072AA8369D9278DA53 /* NSMutableSet+MondoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4003481EB359C1DAE5E885C7485106C /* NSOrderedSet+MondoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A44BAB9BDB7B7E5EF11EC06F1FAFDFC /* NSOrderedSet+MondoKit.m */; };
+		A7C31E8DC9669296A9AEAF1B07930A13 /* NSAttributedString+MondoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 01243E0F6E0FBEF364D78471B7A2F63E /* NSAttributedString+MondoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AA82E1A7F0BA291EEA5DF67CB214F901 /* NSJSONSerialization+MondoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 533E2BF8D9558D83712E794843E65446 /* NSJSONSerialization+MondoKit.m */; };
+		B19C7B46D410EF3BC66F6C21DBBAAF77 /* NSDictionary+MondoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = C629D8C86B94E8AEC388E8FCF5529130 /* NSDictionary+MondoKit.m */; };
+		B2A465AF4A6F573136CDDD1F95D41BF1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		B761CB6F701EDEC6CDD595E78C87CCB8 /* MondoService.m in Sources */ = {isa = PBXBuildFile; fileRef = E1183B3BCF4C68FBED649222C78AF134 /* MondoService.m */; };
+		B9FEDC3C73162C7806457C86D6ACC7CE /* NSTimer+MondoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FB0B4F30C09B4F4A01865D55EAF227A5 /* NSTimer+MondoKit.m */; };
+		BC8A4E7FA7F50B6C81FD206DA34A35C5 /* MondoKVOProxy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AFBB1F4207AE117F44171CA05859870 /* MondoKVOProxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2BCB572B91423593078D3A17A1EAECF /* NSCache+MondoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 199E18A6C41175E1DDEF6BEAC2B04E3F /* NSCache+MondoKit.m */; };
+		D4D27551C6D6187CD0E88D56AE3118B1 /* UIView+MondoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 942E0E1F0D8818CF54F5EC0180F75DC0 /* UIView+MondoKit.m */; };
+		DD8FAB8F0686AA0583C84D1F2FA84B72 /* NSMutableSet+MondoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EB171F886A29A1A9B2736E91F77B21B /* NSMutableSet+MondoKit.m */; };
+		E2901D0837FE7838D47E1B8AF7EBFAF5 /* NSArray+MondoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 516105C88A2BD1EB633318E339E89ECE /* NSArray+MondoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E75CBB34FFBFA2EBA01FC0703525FEEC /* Pods-MondoKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 109A306C82E48D4864316FAF8D6D1EB4 /* Pods-MondoKit_Example-dummy.m */; };
+		E7859110BEDEA72C964F7698A31DED70 /* MondoTimerInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 759E43E9F9D6070A7DEFC6B2B40EAB27 /* MondoTimerInfo.m */; };
+		ECE70B4A3FCCBE77F6A2C424EFB4EA56 /* NSObject+MondoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 35DC89EDF9F502005D6E76F849D7B0F2 /* NSObject+MondoKit.m */; };
+		EF8922BE8E9670C78DA154AC2F47D295 /* NSMutableArray+MondoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = DA78A51D56C3FC7678450037D86FDA4F /* NSMutableArray+MondoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EFD099D7FB4CA9097396F879D90A5136 /* Pods-MondoKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D11D21F29E30A70A137643629F03995 /* Pods-MondoKit_Tests-dummy.m */; };
+		F270E8C79C01E40374846A62BDBA0109 /* MondoWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = B3808ED4A586964E231D65737FBB228A /* MondoWeakProxy.m */; };
+		F2ECDCDFD94FDDD49E2E4F4553DBA10C /* MondoKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5A23922F273D9382E92ED709952D8F0 /* MondoKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F594B3CD69DD95D80E72732048D44AF5 /* NSSet+MondoKit.m in Sources */ = {isa = PBXBuildFile; fileRef = 68E2085AF2E83239F79CBA2E49E5DA8E /* NSSet+MondoKit.m */; };
+		F76004B5AE540C29F1837D22279F13EB /* MondoKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7446C57A7885441D677334A809A10163 /* MondoKit-dummy.m */; };
+		FC017F9EDD295CDF679A8A8A5FEEF742 /* NSDictionary+MondoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 01523BA5AF573DBAA11FFE2AEA61BAFB /* NSDictionary+MondoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FD9D8E6F2E96479750B7321B3FA244C3 /* NSString+MondoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = BCAD1B989B8054F152AF9AB38DB1158B /* NSString+MondoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE10F124DDF27826F96C5E2DCDE4B931 /* NSObject+MondoKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 95754FE0BCEF5FC31C983B86ADE88899 /* NSObject+MondoKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		57015B50C80FDE789789434B590FF35C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE64CB6E6F58394904B497F965B71AA9;
+			remoteInfo = MondoKit;
+		};
+		5DBFA643D4971A3A6B9C3087A666FFC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F1D81DA9F27CB7C5F1524FF9EEB5FC2F;
+			remoteInfo = "Pods-MondoKit_Example";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01243E0F6E0FBEF364D78471B7A2F63E /* NSAttributedString+MondoKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+MondoKit.h"; path = "MondoKit/Classes/NSAttributedString/NSAttributedString+MondoKit.h"; sourceTree = "<group>"; };
+		01523BA5AF573DBAA11FFE2AEA61BAFB /* NSDictionary+MondoKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDictionary+MondoKit.h"; path = "MondoKit/Classes/NSDictionary/NSDictionary+MondoKit.h"; sourceTree = "<group>"; };
+		0A33AB0EE7484105D435CF571D1620EF /* NSMutableData+MondoKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableData+MondoKit.h"; path = "MondoKit/Classes/NSData/NSMutableData+MondoKit.h"; sourceTree = "<group>"; };
+		0B3C3B0195211831D609DBD647631F4A /* Pods-MondoKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MondoKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		109A306C82E48D4864316FAF8D6D1EB4 /* Pods-MondoKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MondoKit_Example-dummy.m"; sourceTree = "<group>"; };
+		119598412B5528EE5AA54E99BE5A2228 /* Pods-MondoKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MondoKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		132AEBEB65CFEC26148AC703496CD1B5 /* NSOrderedSet+MondoKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSOrderedSet+MondoKit.h"; path = "MondoKit/Classes/NSOrderedSet/NSOrderedSet+MondoKit.h"; sourceTree = "<group>"; };
+		17B097E67EDF8DA91F61AA4DE2FDFC30 /* Pods-MondoKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MondoKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		1894023783B8B83AFBED7F46D263B2C3 /* UIView+MondoKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MondoKit.h"; path = "MondoKit/Classes/UIView/UIView+MondoKit.h"; sourceTree = "<group>"; };
+		199E18A6C41175E1DDEF6BEAC2B04E3F /* NSCache+MondoKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSCache+MondoKit.m"; path = "MondoKit/Classes/NSCache/NSCache+MondoKit.m"; sourceTree = "<group>"; };
+		1D146671055DE1F2843D474D83848AD8 /* MondoKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MondoKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1DE7EEC7666FCB289FC56FF7DF01E009 /* NSMutableDictionary+MondoKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableDictionary+MondoKit.m"; path = "MondoKit/Classes/NSDictionary/NSMutableDictionary+MondoKit.m"; sourceTree = "<group>"; };
+		236602819F32E30A4930CD148B08E337 /* NSMutableString+MondoKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableString+MondoKit.m"; path = "MondoKit/Classes/NSString/NSMutableString+MondoKit.m"; sourceTree = "<group>"; };
+		24CEBBA6FB05EDE5E6435BC728217EB4 /* MondoKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MondoKit-prefix.pch"; sourceTree = "<group>"; };
+		250EC96F452C61D45D74A2CBC2DBCD5E /* Pods-MondoKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MondoKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		27268F5A73DF2522B852D35AF35C3461 /* Pods-MondoKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MondoKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		2A63967B94DF3A61EFC4608BEE65A7CA /* MondoKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MondoKit.debug.xcconfig; sourceTree = "<group>"; };
+		2EB171F886A29A1A9B2736E91F77B21B /* NSMutableSet+MondoKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableSet+MondoKit.m"; path = "MondoKit/Classes/NSSet/NSMutableSet+MondoKit.m"; sourceTree = "<group>"; };
+		2F3EB52D8943C44A0C0F0D7E40B70CB5 /* NSMutableDictionary+MondoKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableDictionary+MondoKit.h"; path = "MondoKit/Classes/NSDictionary/NSMutableDictionary+MondoKit.h"; sourceTree = "<group>"; };
+		30BE046D1422974E4BF0AF8E4045D06C /* NSMutableData+MondoKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableData+MondoKit.m"; path = "MondoKit/Classes/NSData/NSMutableData+MondoKit.m"; sourceTree = "<group>"; };
+		315C92C7E59D20D6546714E4A077B8E4 /* NSTimer+MondoKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTimer+MondoKit.h"; path = "MondoKit/Classes/NSTimer/NSTimer+MondoKit.h"; sourceTree = "<group>"; };
+		35DC89EDF9F502005D6E76F849D7B0F2 /* NSObject+MondoKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MondoKit.m"; path = "MondoKit/Classes/NSObject/NSObject+MondoKit.m"; sourceTree = "<group>"; };
+		3FF57174BA41BB73BECEC0C4EA810A7E /* Pods-MondoKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MondoKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4A6FC6564AC8DF68969211E8C724B0D9 /* Pods-MondoKit_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MondoKit_Example-Info.plist"; sourceTree = "<group>"; };
+		4B8ACB37FCD062F135399D1140FF0D81 /* NSString+MondoKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+MondoKit.m"; path = "MondoKit/Classes/NSString/NSString+MondoKit.m"; sourceTree = "<group>"; };
+		4CF64592CE4FF0A4E22DF6530A93231B /* NSObject+MondoKitKVO.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+MondoKitKVO.m"; path = "MondoKit/Classes/KeyValueObserving/NSObject+MondoKitKVO.m"; sourceTree = "<group>"; };
+		4D11D21F29E30A70A137643629F03995 /* Pods-MondoKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MondoKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		516105C88A2BD1EB633318E339E89ECE /* NSArray+MondoKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MondoKit.h"; path = "MondoKit/Classes/NSArray/NSArray+MondoKit.h"; sourceTree = "<group>"; };
+		533E2BF8D9558D83712E794843E65446 /* NSJSONSerialization+MondoKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSJSONSerialization+MondoKit.m"; path = "MondoKit/Classes/NSJSONSerialization/NSJSONSerialization+MondoKit.m"; sourceTree = "<group>"; };
+		55C965515C3C5D84F5CBC35AE141FAD1 /* Pods-MondoKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MondoKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		564E36DA72C4AC5C64188FB275171F63 /* MondoKVOProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MondoKVOProxy.m; path = MondoKit/Classes/KeyValueObserving/MondoKVOProxy.m; sourceTree = "<group>"; };
+		6579370EE8449F3BB20BD8667C9EC82E /* Pods-MondoKit_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MondoKit_Example"; path = Pods_MondoKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		660DDA37767DD51CE8CE22350F718963 /* Pods-MondoKit_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-MondoKit_Tests"; path = Pods_MondoKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		68E2085AF2E83239F79CBA2E49E5DA8E /* NSSet+MondoKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSSet+MondoKit.m"; path = "MondoKit/Classes/NSSet/NSSet+MondoKit.m"; sourceTree = "<group>"; };
+		6ABC32DA10C71E9C9999F92EC4D91E0C /* NSMutableArray+MondoKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+MondoKit.m"; path = "MondoKit/Classes/NSArray/NSMutableArray+MondoKit.m"; sourceTree = "<group>"; };
+		6AFBB1F4207AE117F44171CA05859870 /* MondoKVOProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MondoKVOProxy.h; path = MondoKit/Classes/KeyValueObserving/MondoKVOProxy.h; sourceTree = "<group>"; };
+		6E4F5D152227FDB7CCF610F7345F9A9E /* Pods-MondoKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MondoKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6E8E50867219C778B1CB6824D9506EF2 /* MondoKit */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MondoKit; path = MondoKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7446C57A7885441D677334A809A10163 /* MondoKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MondoKit-dummy.m"; sourceTree = "<group>"; };
+		759E43E9F9D6070A7DEFC6B2B40EAB27 /* MondoTimerInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MondoTimerInfo.m; path = MondoKit/Classes/NSTimer/MondoTimerInfo.m; sourceTree = "<group>"; };
+		844E9A9624EAEE93C9CED4A4E7737025 /* MondoService.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MondoService.h; path = MondoKit/Classes/Core/MondoService.h; sourceTree = "<group>"; };
+		863DDFC0E23D705DE170A4B30B2077FC /* MondoCFuntion.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MondoCFuntion.m; path = MondoKit/Classes/Util/MondoCFuntion.m; sourceTree = "<group>"; };
+		87B4E1EF0C4760F9A3284B94A478DD3C /* MondoKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MondoKit-Info.plist"; sourceTree = "<group>"; };
+		87D44BC53F71258EC1D0FD0424FADF49 /* NSJSONSerialization+MondoKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSJSONSerialization+MondoKit.h"; path = "MondoKit/Classes/NSJSONSerialization/NSJSONSerialization+MondoKit.h"; sourceTree = "<group>"; };
+		90C12CA5D98421B0F05B384CCBC736A4 /* Pods-MondoKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MondoKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		9243F9EE0DCD733F7422CF00B62580DC /* NSMutableAttributedString+MondoKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableAttributedString+MondoKit.m"; path = "MondoKit/Classes/NSAttributedString/NSMutableAttributedString+MondoKit.m"; sourceTree = "<group>"; };
+		9427B94736E249A3B9BA149598AF611D /* NSCache+MondoKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSCache+MondoKit.h"; path = "MondoKit/Classes/NSCache/NSCache+MondoKit.h"; sourceTree = "<group>"; };
+		942E0E1F0D8818CF54F5EC0180F75DC0 /* UIView+MondoKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MondoKit.m"; path = "MondoKit/Classes/UIView/UIView+MondoKit.m"; sourceTree = "<group>"; };
+		94ADA8DEF692AB4F08B00D6C44D34D70 /* Pods-MondoKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MondoKit_Example.modulemap"; sourceTree = "<group>"; };
+		95754FE0BCEF5FC31C983B86ADE88899 /* NSObject+MondoKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MondoKit.h"; path = "MondoKit/Classes/NSObject/NSObject+MondoKit.h"; sourceTree = "<group>"; };
+		96094EBB5619090B259125879151462D /* NSAttributedString+MondoKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+MondoKit.m"; path = "MondoKit/Classes/NSAttributedString/NSAttributedString+MondoKit.m"; sourceTree = "<group>"; };
+		973A0907BE94FF73BF2FB5261EA1F432 /* NSMutableOrderedSet+MondoKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableOrderedSet+MondoKit.h"; path = "MondoKit/Classes/NSOrderedSet/NSMutableOrderedSet+MondoKit.h"; sourceTree = "<group>"; };
+		995E134B3FABF145E69A93A8357AD6E5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		9A44BAB9BDB7B7E5EF11EC06F1FAFDFC /* NSOrderedSet+MondoKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSOrderedSet+MondoKit.m"; path = "MondoKit/Classes/NSOrderedSet/NSOrderedSet+MondoKit.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A97F5F6463BFD8F16178A7A9084C76BD /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		B0CD75A6BDC53FE8C3C400426635186E /* NSSet+MondoKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSSet+MondoKit.h"; path = "MondoKit/Classes/NSSet/NSSet+MondoKit.h"; sourceTree = "<group>"; };
+		B1B8C70E67AC5004873A6523A37F0CBB /* Pods-MondoKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MondoKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		B3808ED4A586964E231D65737FBB228A /* MondoWeakProxy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MondoWeakProxy.m; path = MondoKit/Classes/Util/MondoWeakProxy.m; sourceTree = "<group>"; };
+		BCAD1B989B8054F152AF9AB38DB1158B /* NSString+MondoKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+MondoKit.h"; path = "MondoKit/Classes/NSString/NSString+MondoKit.h"; sourceTree = "<group>"; };
+		C18BE4B0A6A41D07F7F6CC5CFEF8662A /* Pods-MondoKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MondoKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C35615F159E4D2D4425CD4722BC79D91 /* MondoKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MondoKit.release.xcconfig; sourceTree = "<group>"; };
+		C629D8C86B94E8AEC388E8FCF5529130 /* NSDictionary+MondoKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDictionary+MondoKit.m"; path = "MondoKit/Classes/NSDictionary/NSDictionary+MondoKit.m"; sourceTree = "<group>"; };
+		C717260F9713B856804548AF909B3FC0 /* MondoKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MondoKit.modulemap; sourceTree = "<group>"; };
+		C958D29671D1E2947A37530213F3A1C9 /* MondoWeakProxy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MondoWeakProxy.h; path = MondoKit/Classes/Util/MondoWeakProxy.h; sourceTree = "<group>"; };
+		C971311E036267C20F84B252000A6650 /* Pods-MondoKit_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MondoKit_Tests-Info.plist"; sourceTree = "<group>"; };
+		CA50ED4E9914983192167B6D3354A948 /* NSMutableAttributedString+MondoKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableAttributedString+MondoKit.h"; path = "MondoKit/Classes/NSAttributedString/NSMutableAttributedString+MondoKit.h"; sourceTree = "<group>"; };
+		CBA4E9F06EA5EDB8BA5FB9EE7541B95B /* NSArray+MondoKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MondoKit.m"; path = "MondoKit/Classes/NSArray/NSArray+MondoKit.m"; sourceTree = "<group>"; };
+		D6179C0C3BA1B525BADEA60498D7B1F6 /* NSMutableOrderedSet+MondoKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableOrderedSet+MondoKit.m"; path = "MondoKit/Classes/NSOrderedSet/NSMutableOrderedSet+MondoKit.m"; sourceTree = "<group>"; };
+		DA44DAF6CCB431B4FD396CE8D71F3371 /* NSData+MondoKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+MondoKit.h"; path = "MondoKit/Classes/NSData/NSData+MondoKit.h"; sourceTree = "<group>"; };
+		DA78A51D56C3FC7678450037D86FDA4F /* NSMutableArray+MondoKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+MondoKit.h"; path = "MondoKit/Classes/NSArray/NSMutableArray+MondoKit.h"; sourceTree = "<group>"; };
+		DD324EAEB6E8326C05F2840BAD6D646C /* NSMutableString+MondoKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableString+MondoKit.h"; path = "MondoKit/Classes/NSString/NSMutableString+MondoKit.h"; sourceTree = "<group>"; };
+		E1183B3BCF4C68FBED649222C78AF134 /* MondoService.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MondoService.m; path = MondoKit/Classes/Core/MondoService.m; sourceTree = "<group>"; };
+		E63B18DF0317D3945B543CF43D316F45 /* Pods-MondoKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MondoKit_Tests.modulemap"; sourceTree = "<group>"; };
+		E926AED1EF052F792F6B41327D832F9D /* MondoCFuntion.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MondoCFuntion.h; path = MondoKit/Classes/Util/MondoCFuntion.h; sourceTree = "<group>"; };
+		ED8CBE9E4AA519072AA8369D9278DA53 /* NSMutableSet+MondoKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableSet+MondoKit.h"; path = "MondoKit/Classes/NSSet/NSMutableSet+MondoKit.h"; sourceTree = "<group>"; };
+		F27F909253BD437D1F78ECA513F248C1 /* NSObject+MondoKitKVO.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+MondoKitKVO.h"; path = "MondoKit/Classes/KeyValueObserving/NSObject+MondoKitKVO.h"; sourceTree = "<group>"; };
+		F5A23922F273D9382E92ED709952D8F0 /* MondoKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MondoKit-umbrella.h"; sourceTree = "<group>"; };
+		FB0B4F30C09B4F4A01865D55EAF227A5 /* NSTimer+MondoKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+MondoKit.m"; path = "MondoKit/Classes/NSTimer/NSTimer+MondoKit.m"; sourceTree = "<group>"; };
+		FD5F7ED33E6D127A08FCAC271D8C000E /* NSData+MondoKit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+MondoKit.m"; path = "MondoKit/Classes/NSData/NSData+MondoKit.m"; sourceTree = "<group>"; };
+		FE3F7A0688E8ACC56E0120C1061FD3F2 /* MondoTimerInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MondoTimerInfo.h; path = MondoKit/Classes/NSTimer/MondoTimerInfo.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3E629BE9F0CC8BB414594651EADC7775 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00905741AFA1A28946F94C7261D5E06C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F36284F1D8727A6BC0889B1EDEDA88D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E833ABAD07669FB3BAA5729E635975 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1648012C875901B89ADA045804595B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2A465AF4A6F573136CDDD1F95D41BF1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		044A9BE37587F3D4FC148BE8BB7D2AF3 /* NSCache */ = {
+			isa = PBXGroup;
+			children = (
+				9427B94736E249A3B9BA149598AF611D /* NSCache+MondoKit.h */,
+				199E18A6C41175E1DDEF6BEAC2B04E3F /* NSCache+MondoKit.m */,
+			);
+			name = NSCache;
+			sourceTree = "<group>";
+		};
+		1035653F5028FD5F115E520A65A71527 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				774129E49A6936B477282E25B6F2E5C6 /* Pods-MondoKit_Example */,
+				EE63E01A6D1CDD0F9EAF988DA3450C72 /* Pods-MondoKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		1D3F539541AEE25598502002B2E9EA9F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C717260F9713B856804548AF909B3FC0 /* MondoKit.modulemap */,
+				7446C57A7885441D677334A809A10163 /* MondoKit-dummy.m */,
+				87B4E1EF0C4760F9A3284B94A478DD3C /* MondoKit-Info.plist */,
+				24CEBBA6FB05EDE5E6435BC728217EB4 /* MondoKit-prefix.pch */,
+				F5A23922F273D9382E92ED709952D8F0 /* MondoKit-umbrella.h */,
+				2A63967B94DF3A61EFC4608BEE65A7CA /* MondoKit.debug.xcconfig */,
+				C35615F159E4D2D4425CD4722BC79D91 /* MondoKit.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MondoKit";
+			sourceTree = "<group>";
+		};
+		27F803A562FA5BD0D13473169D323364 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				A97F5F6463BFD8F16178A7A9084C76BD /* LICENSE */,
+				1D146671055DE1F2843D474D83848AD8 /* MondoKit.podspec */,
+				995E134B3FABF145E69A93A8357AD6E5 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		28A043EFED409A090250FFE1F6C7ECCA /* NSOrderedSet */ = {
+			isa = PBXGroup;
+			children = (
+				973A0907BE94FF73BF2FB5261EA1F432 /* NSMutableOrderedSet+MondoKit.h */,
+				D6179C0C3BA1B525BADEA60498D7B1F6 /* NSMutableOrderedSet+MondoKit.m */,
+				132AEBEB65CFEC26148AC703496CD1B5 /* NSOrderedSet+MondoKit.h */,
+				9A44BAB9BDB7B7E5EF11EC06F1FAFDFC /* NSOrderedSet+MondoKit.m */,
+			);
+			name = NSOrderedSet;
+			sourceTree = "<group>";
+		};
+		2B2B1A685FE5D6299E300A9CB23B2971 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				DD324EAEB6E8326C05F2840BAD6D646C /* NSMutableString+MondoKit.h */,
+				236602819F32E30A4930CD148B08E337 /* NSMutableString+MondoKit.m */,
+				BCAD1B989B8054F152AF9AB38DB1158B /* NSString+MondoKit.h */,
+				4B8ACB37FCD062F135399D1140FF0D81 /* NSString+MondoKit.m */,
+			);
+			name = NSString;
+			sourceTree = "<group>";
+		};
+		308369313085E500E596A470B21FA246 /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				DA44DAF6CCB431B4FD396CE8D71F3371 /* NSData+MondoKit.h */,
+				FD5F7ED33E6D127A08FCAC271D8C000E /* NSData+MondoKit.m */,
+				0A33AB0EE7484105D435CF571D1620EF /* NSMutableData+MondoKit.h */,
+				30BE046D1422974E4BF0AF8E4045D06C /* NSMutableData+MondoKit.m */,
+			);
+			name = NSData;
+			sourceTree = "<group>";
+		};
+		3F60E60FED83F083FAC24E4094FAE3B4 /* KeyValueObserving */ = {
+			isa = PBXGroup;
+			children = (
+				6AFBB1F4207AE117F44171CA05859870 /* MondoKVOProxy.h */,
+				564E36DA72C4AC5C64188FB275171F63 /* MondoKVOProxy.m */,
+				F27F909253BD437D1F78ECA513F248C1 /* NSObject+MondoKitKVO.h */,
+				4CF64592CE4FF0A4E22DF6530A93231B /* NSObject+MondoKitKVO.m */,
+			);
+			name = KeyValueObserving;
+			sourceTree = "<group>";
+		};
+		3FEB662D71E19339E439597569E0F726 /* NSArray */ = {
+			isa = PBXGroup;
+			children = (
+				516105C88A2BD1EB633318E339E89ECE /* NSArray+MondoKit.h */,
+				CBA4E9F06EA5EDB8BA5FB9EE7541B95B /* NSArray+MondoKit.m */,
+				DA78A51D56C3FC7678450037D86FDA4F /* NSMutableArray+MondoKit.h */,
+				6ABC32DA10C71E9C9999F92EC4D91E0C /* NSMutableArray+MondoKit.m */,
+			);
+			name = NSArray;
+			sourceTree = "<group>";
+		};
+		4875C94F8E135212FDE1918879944CCF /* NSObject */ = {
+			isa = PBXGroup;
+			children = (
+				95754FE0BCEF5FC31C983B86ADE88899 /* NSObject+MondoKit.h */,
+				35DC89EDF9F502005D6E76F849D7B0F2 /* NSObject+MondoKit.m */,
+			);
+			name = NSObject;
+			sourceTree = "<group>";
+		};
+		50A6226D9D8B20D073BCA868A146659A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D0EEC999205DE272CE748D558BDCFBFD /* MondoKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		5F066656F40B4EE51311C8DD55C89B08 /* NSDictionary */ = {
+			isa = PBXGroup;
+			children = (
+				01523BA5AF573DBAA11FFE2AEA61BAFB /* NSDictionary+MondoKit.h */,
+				C629D8C86B94E8AEC388E8FCF5529130 /* NSDictionary+MondoKit.m */,
+				2F3EB52D8943C44A0C0F0D7E40B70CB5 /* NSMutableDictionary+MondoKit.h */,
+				1DE7EEC7666FCB289FC56FF7DF01E009 /* NSMutableDictionary+MondoKit.m */,
+			);
+			name = NSDictionary;
+			sourceTree = "<group>";
+		};
+		6222B2F3684E5E2C17397C56FCE6EE01 /* NSJSONSerialization */ = {
+			isa = PBXGroup;
+			children = (
+				87D44BC53F71258EC1D0FD0424FADF49 /* NSJSONSerialization+MondoKit.h */,
+				533E2BF8D9558D83712E794843E65446 /* NSJSONSerialization+MondoKit.m */,
+			);
+			name = NSJSONSerialization;
+			sourceTree = "<group>";
+		};
+		72A30879566F09226434F553DE3AF73B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6E8E50867219C778B1CB6824D9506EF2 /* MondoKit */,
+				6579370EE8449F3BB20BD8667C9EC82E /* Pods-MondoKit_Example */,
+				660DDA37767DD51CE8CE22350F718963 /* Pods-MondoKit_Tests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		774129E49A6936B477282E25B6F2E5C6 /* Pods-MondoKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				94ADA8DEF692AB4F08B00D6C44D34D70 /* Pods-MondoKit_Example.modulemap */,
+				250EC96F452C61D45D74A2CBC2DBCD5E /* Pods-MondoKit_Example-acknowledgements.markdown */,
+				55C965515C3C5D84F5CBC35AE141FAD1 /* Pods-MondoKit_Example-acknowledgements.plist */,
+				109A306C82E48D4864316FAF8D6D1EB4 /* Pods-MondoKit_Example-dummy.m */,
+				90C12CA5D98421B0F05B384CCBC736A4 /* Pods-MondoKit_Example-frameworks.sh */,
+				4A6FC6564AC8DF68969211E8C724B0D9 /* Pods-MondoKit_Example-Info.plist */,
+				B1B8C70E67AC5004873A6523A37F0CBB /* Pods-MondoKit_Example-umbrella.h */,
+				27268F5A73DF2522B852D35AF35C3461 /* Pods-MondoKit_Example.debug.xcconfig */,
+				3FF57174BA41BB73BECEC0C4EA810A7E /* Pods-MondoKit_Example.release.xcconfig */,
+			);
+			name = "Pods-MondoKit_Example";
+			path = "Target Support Files/Pods-MondoKit_Example";
+			sourceTree = "<group>";
+		};
+		7C60507EB7C6787DA013A08F1840BAB2 /* NSAttributedString */ = {
+			isa = PBXGroup;
+			children = (
+				01243E0F6E0FBEF364D78471B7A2F63E /* NSAttributedString+MondoKit.h */,
+				96094EBB5619090B259125879151462D /* NSAttributedString+MondoKit.m */,
+				CA50ED4E9914983192167B6D3354A948 /* NSMutableAttributedString+MondoKit.h */,
+				9243F9EE0DCD733F7422CF00B62580DC /* NSMutableAttributedString+MondoKit.m */,
+			);
+			name = NSAttributedString;
+			sourceTree = "<group>";
+		};
+		91CBEE65542FA1A8015A2E93ACFFA7E5 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				E926AED1EF052F792F6B41327D832F9D /* MondoCFuntion.h */,
+				863DDFC0E23D705DE170A4B30B2077FC /* MondoCFuntion.m */,
+				C958D29671D1E2947A37530213F3A1C9 /* MondoWeakProxy.h */,
+				B3808ED4A586964E231D65737FBB228A /* MondoWeakProxy.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		96E093FE87A2E63695F2D99DBC1EF30E /* NSSet */ = {
+			isa = PBXGroup;
+			children = (
+				ED8CBE9E4AA519072AA8369D9278DA53 /* NSMutableSet+MondoKit.h */,
+				2EB171F886A29A1A9B2736E91F77B21B /* NSMutableSet+MondoKit.m */,
+				B0CD75A6BDC53FE8C3C400426635186E /* NSSet+MondoKit.h */,
+				68E2085AF2E83239F79CBA2E49E5DA8E /* NSSet+MondoKit.m */,
+			);
+			name = NSSet;
+			sourceTree = "<group>";
+		};
+		A68776E4204DD894A055DAB83188D26F /* UIView */ = {
+			isa = PBXGroup;
+			children = (
+				1894023783B8B83AFBED7F46D263B2C3 /* UIView+MondoKit.h */,
+				942E0E1F0D8818CF54F5EC0180F75DC0 /* UIView+MondoKit.m */,
+			);
+			name = UIView;
+			sourceTree = "<group>";
+		};
+		B6B182821D42E316FF17846890A9784B /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				844E9A9624EAEE93C9CED4A4E7737025 /* MondoService.h */,
+				E1183B3BCF4C68FBED649222C78AF134 /* MondoService.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				50A6226D9D8B20D073BCA868A146659A /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				72A30879566F09226434F553DE3AF73B /* Products */,
+				1035653F5028FD5F115E520A65A71527 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D0EEC999205DE272CE748D558BDCFBFD /* MondoKit */ = {
+			isa = PBXGroup;
+			children = (
+				B6B182821D42E316FF17846890A9784B /* Core */,
+				3F60E60FED83F083FAC24E4094FAE3B4 /* KeyValueObserving */,
+				3FEB662D71E19339E439597569E0F726 /* NSArray */,
+				7C60507EB7C6787DA013A08F1840BAB2 /* NSAttributedString */,
+				044A9BE37587F3D4FC148BE8BB7D2AF3 /* NSCache */,
+				308369313085E500E596A470B21FA246 /* NSData */,
+				5F066656F40B4EE51311C8DD55C89B08 /* NSDictionary */,
+				6222B2F3684E5E2C17397C56FCE6EE01 /* NSJSONSerialization */,
+				4875C94F8E135212FDE1918879944CCF /* NSObject */,
+				28A043EFED409A090250FFE1F6C7ECCA /* NSOrderedSet */,
+				96E093FE87A2E63695F2D99DBC1EF30E /* NSSet */,
+				2B2B1A685FE5D6299E300A9CB23B2971 /* NSString */,
+				EC6F8A917AC1CA382F701885D909367F /* NSTimer */,
+				27F803A562FA5BD0D13473169D323364 /* Pod */,
+				1D3F539541AEE25598502002B2E9EA9F /* Support Files */,
+				A68776E4204DD894A055DAB83188D26F /* UIView */,
+				91CBEE65542FA1A8015A2E93ACFFA7E5 /* Util */,
+			);
+			name = MondoKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EC6F8A917AC1CA382F701885D909367F /* NSTimer */ = {
+			isa = PBXGroup;
+			children = (
+				FE3F7A0688E8ACC56E0120C1061FD3F2 /* MondoTimerInfo.h */,
+				759E43E9F9D6070A7DEFC6B2B40EAB27 /* MondoTimerInfo.m */,
+				315C92C7E59D20D6546714E4A077B8E4 /* NSTimer+MondoKit.h */,
+				FB0B4F30C09B4F4A01865D55EAF227A5 /* NSTimer+MondoKit.m */,
+			);
+			name = NSTimer;
+			sourceTree = "<group>";
+		};
+		EE63E01A6D1CDD0F9EAF988DA3450C72 /* Pods-MondoKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				E63B18DF0317D3945B543CF43D316F45 /* Pods-MondoKit_Tests.modulemap */,
+				C18BE4B0A6A41D07F7F6CC5CFEF8662A /* Pods-MondoKit_Tests-acknowledgements.markdown */,
+				17B097E67EDF8DA91F61AA4DE2FDFC30 /* Pods-MondoKit_Tests-acknowledgements.plist */,
+				4D11D21F29E30A70A137643629F03995 /* Pods-MondoKit_Tests-dummy.m */,
+				C971311E036267C20F84B252000A6650 /* Pods-MondoKit_Tests-Info.plist */,
+				0B3C3B0195211831D609DBD647631F4A /* Pods-MondoKit_Tests-umbrella.h */,
+				6E4F5D152227FDB7CCF610F7345F9A9E /* Pods-MondoKit_Tests.debug.xcconfig */,
+				119598412B5528EE5AA54E99BE5A2228 /* Pods-MondoKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-MondoKit_Tests";
+			path = "Target Support Files/Pods-MondoKit_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		32805433ECD9603F5D272B19C2C587FA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DBCB28FEBCBA84A3E5C875961A1F53C /* Pods-MondoKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A071ABD4FA13DE6A7EF0A39F0F860BD5 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4515BB07040828D633DF04DF35ED9AEE /* Pods-MondoKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D24AF8D1C94E2ACE015BCEE9D1BAB0EA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B64BF06C27BFE355E0EFD48F5828585 /* MondoCFuntion.h in Headers */,
+				F2ECDCDFD94FDDD49E2E4F4553DBA10C /* MondoKit-umbrella.h in Headers */,
+				BC8A4E7FA7F50B6C81FD206DA34A35C5 /* MondoKVOProxy.h in Headers */,
+				865C53E4CF0825FA0D34CE4495055DC8 /* MondoService.h in Headers */,
+				5FEE75E24B130EAC27ADA1E5303E2993 /* MondoTimerInfo.h in Headers */,
+				7B9425914D6F6E5C3095FB917ECDD2A1 /* MondoWeakProxy.h in Headers */,
+				E2901D0837FE7838D47E1B8AF7EBFAF5 /* NSArray+MondoKit.h in Headers */,
+				A7C31E8DC9669296A9AEAF1B07930A13 /* NSAttributedString+MondoKit.h in Headers */,
+				64B5F39DAD316B33EDEFD4DA00279F8B /* NSCache+MondoKit.h in Headers */,
+				49B14F541C5C4DDBC502732552F9D466 /* NSData+MondoKit.h in Headers */,
+				FC017F9EDD295CDF679A8A8A5FEEF742 /* NSDictionary+MondoKit.h in Headers */,
+				1E9B2FFEAE309DAA63B2F6EAD4C26766 /* NSJSONSerialization+MondoKit.h in Headers */,
+				EF8922BE8E9670C78DA154AC2F47D295 /* NSMutableArray+MondoKit.h in Headers */,
+				766F89CFBECDDA93FCFABB12EB906B0E /* NSMutableAttributedString+MondoKit.h in Headers */,
+				0F9A7FE9387524E0FA8ECF6A4A8C0623 /* NSMutableData+MondoKit.h in Headers */,
+				2B0B06F330D84237F15B5DF7A16292AD /* NSMutableDictionary+MondoKit.h in Headers */,
+				89113807CE36DB11C8AEBEBAF36F9FAB /* NSMutableOrderedSet+MondoKit.h in Headers */,
+				93F2099F7A61A482AE9BCD739FFEE5BA /* NSMutableSet+MondoKit.h in Headers */,
+				73EC70D84A99CA3C98F1F9AD0FFDA7A7 /* NSMutableString+MondoKit.h in Headers */,
+				FE10F124DDF27826F96C5E2DCDE4B931 /* NSObject+MondoKit.h in Headers */,
+				21351A41D3E7E11F54630CB0ED7D23B9 /* NSObject+MondoKitKVO.h in Headers */,
+				6866F19F4BB2E115B7061207DB6D14D3 /* NSOrderedSet+MondoKit.h in Headers */,
+				38F4925E2DA3D0B0F676963ACC5EFB77 /* NSSet+MondoKit.h in Headers */,
+				FD9D8E6F2E96479750B7321B3FA244C3 /* NSString+MondoKit.h in Headers */,
+				2301DA9A579101985323F99C20BE8860 /* NSTimer+MondoKit.h in Headers */,
+				5D82C8499BBDC1ECECDAE587FE5C8261 /* UIView+MondoKit.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E86ECC055AF6F237A373E72CCCB2741F /* Pods-MondoKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D3E6A28035A349ED629A8D015406547 /* Build configuration list for PBXNativeTarget "Pods-MondoKit_Tests" */;
+			buildPhases = (
+				A071ABD4FA13DE6A7EF0A39F0F860BD5 /* Headers */,
+				E07FC815F63E1C097A7488CA1EA3D3A2 /* Sources */,
+				3E629BE9F0CC8BB414594651EADC7775 /* Frameworks */,
+				1B4B8F3FDB26A8559FCD6258DAA6CC17 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3226CB44B414C014C2156B40DD38F4CA /* PBXTargetDependency */,
+			);
+			name = "Pods-MondoKit_Tests";
+			productName = Pods_MondoKit_Tests;
+			productReference = 660DDA37767DD51CE8CE22350F718963 /* Pods-MondoKit_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+		F1D81DA9F27CB7C5F1524FF9EEB5FC2F /* Pods-MondoKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6E37593DC1A04EC5F07F047BBC0332B2 /* Build configuration list for PBXNativeTarget "Pods-MondoKit_Example" */;
+			buildPhases = (
+				32805433ECD9603F5D272B19C2C587FA /* Headers */,
+				CAA775BEF068BEA9C790B76010D28E14 /* Sources */,
+				8F36284F1D8727A6BC0889B1EDEDA88D /* Frameworks */,
+				35D07746C356985CA1245DC0FB853D72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6EA15BF5068B58ECD2F87D61878A5E47 /* PBXTargetDependency */,
+			);
+			name = "Pods-MondoKit_Example";
+			productName = Pods_MondoKit_Example;
+			productReference = 6579370EE8449F3BB20BD8667C9EC82E /* Pods-MondoKit_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		FE64CB6E6F58394904B497F965B71AA9 /* MondoKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F1B075452182B778C4F41111293C183C /* Build configuration list for PBXNativeTarget "MondoKit" */;
+			buildPhases = (
+				D24AF8D1C94E2ACE015BCEE9D1BAB0EA /* Headers */,
+				0B698704283E5E167AEA58C585BEF43A /* Sources */,
+				C1648012C875901B89ADA045804595B1 /* Frameworks */,
+				D9C34226EC4FF33C74796F77BDFFBCE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MondoKit;
+			productName = MondoKit;
+			productReference = 6E8E50867219C778B1CB6824D9506EF2 /* MondoKit */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 72A30879566F09226434F553DE3AF73B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE64CB6E6F58394904B497F965B71AA9 /* MondoKit */,
+				F1D81DA9F27CB7C5F1524FF9EEB5FC2F /* Pods-MondoKit_Example */,
+				E86ECC055AF6F237A373E72CCCB2741F /* Pods-MondoKit_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B4B8F3FDB26A8559FCD6258DAA6CC17 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		35D07746C356985CA1245DC0FB853D72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9C34226EC4FF33C74796F77BDFFBCE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B698704283E5E167AEA58C585BEF43A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6785DE92029A9B97E7D6BA04257539EB /* MondoCFuntion.m in Sources */,
+				F76004B5AE540C29F1837D22279F13EB /* MondoKit-dummy.m in Sources */,
+				5D0BDB968CB002CC3D7B103931F4B631 /* MondoKVOProxy.m in Sources */,
+				B761CB6F701EDEC6CDD595E78C87CCB8 /* MondoService.m in Sources */,
+				E7859110BEDEA72C964F7698A31DED70 /* MondoTimerInfo.m in Sources */,
+				F270E8C79C01E40374846A62BDBA0109 /* MondoWeakProxy.m in Sources */,
+				522B771A4C58684030118B54E743BD29 /* NSArray+MondoKit.m in Sources */,
+				128705FC4D92C5C4DD071D009492414F /* NSAttributedString+MondoKit.m in Sources */,
+				D2BCB572B91423593078D3A17A1EAECF /* NSCache+MondoKit.m in Sources */,
+				75C9BACDE5B9C776C410671220E9F2CD /* NSData+MondoKit.m in Sources */,
+				B19C7B46D410EF3BC66F6C21DBBAAF77 /* NSDictionary+MondoKit.m in Sources */,
+				AA82E1A7F0BA291EEA5DF67CB214F901 /* NSJSONSerialization+MondoKit.m in Sources */,
+				25239F424527A5FC506C98E10A63304E /* NSMutableArray+MondoKit.m in Sources */,
+				8F2AA734CFBA4867D28EC716C07D0ED3 /* NSMutableAttributedString+MondoKit.m in Sources */,
+				4918D58525F4E33FB5186A236570F1C9 /* NSMutableData+MondoKit.m in Sources */,
+				1DEE3EC24730387C4DD4D3F9C1092D8C /* NSMutableDictionary+MondoKit.m in Sources */,
+				28390C51A7B1EE62C8EDFB1C95C84661 /* NSMutableOrderedSet+MondoKit.m in Sources */,
+				DD8FAB8F0686AA0583C84D1F2FA84B72 /* NSMutableSet+MondoKit.m in Sources */,
+				41505BFC186BAD19078E802288F91EA5 /* NSMutableString+MondoKit.m in Sources */,
+				ECE70B4A3FCCBE77F6A2C424EFB4EA56 /* NSObject+MondoKit.m in Sources */,
+				32AE08F127629EE92D8A42868EB6ACEC /* NSObject+MondoKitKVO.m in Sources */,
+				A4003481EB359C1DAE5E885C7485106C /* NSOrderedSet+MondoKit.m in Sources */,
+				F594B3CD69DD95D80E72732048D44AF5 /* NSSet+MondoKit.m in Sources */,
+				0675C449E32493FD8F130DD123F30B2B /* NSString+MondoKit.m in Sources */,
+				B9FEDC3C73162C7806457C86D6ACC7CE /* NSTimer+MondoKit.m in Sources */,
+				D4D27551C6D6187CD0E88D56AE3118B1 /* UIView+MondoKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CAA775BEF068BEA9C790B76010D28E14 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E75CBB34FFBFA2EBA01FC0703525FEEC /* Pods-MondoKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E07FC815F63E1C097A7488CA1EA3D3A2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFD099D7FB4CA9097396F879D90A5136 /* Pods-MondoKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3226CB44B414C014C2156B40DD38F4CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MondoKit_Example";
+			target = F1D81DA9F27CB7C5F1524FF9EEB5FC2F /* Pods-MondoKit_Example */;
+			targetProxy = 5DBFA643D4971A3A6B9C3087A666FFC3 /* PBXContainerItemProxy */;
+		};
+		6EA15BF5068B58ECD2F87D61878A5E47 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MondoKit;
+			target = FE64CB6E6F58394904B497F965B71AA9 /* MondoKit */;
+			targetProxy = 57015B50C80FDE789789434B590FF35C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D65A5414E980E64F070A33FA85424AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C35615F159E4D2D4425CD4722BC79D91 /* MondoKit.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MondoKit/MondoKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MondoKit/MondoKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MondoKit/MondoKit.modulemap";
+				PRODUCT_MODULE_NAME = MondoKit;
+				PRODUCT_NAME = MondoKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		37AA204DB3C0D0B7322E34073F202F2D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 119598412B5528EE5AA54E99BE5A2228 /* Pods-MondoKit_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MondoKit_Tests/Pods-MondoKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MondoKit_Tests/Pods-MondoKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		79E966A69125A9812A2E9B6B468211E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FF57174BA41BB73BECEC0C4EA810A7E /* Pods-MondoKit_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MondoKit_Example/Pods-MondoKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MondoKit_Example/Pods-MondoKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7D911A92275A4EEA29CD29EB32912E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E4F5D152227FDB7CCF610F7345F9A9E /* Pods-MondoKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MondoKit_Tests/Pods-MondoKit_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MondoKit_Tests/Pods-MondoKit_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7EE7A78859F657F6BEFC651185B43192 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B51540EE6D37662DA76510D0DBB2A668 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A63967B94DF3A61EFC4608BEE65A7CA /* MondoKit.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MondoKit/MondoKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MondoKit/MondoKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MondoKit/MondoKit.modulemap";
+				PRODUCT_MODULE_NAME = MondoKit;
+				PRODUCT_NAME = MondoKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CC93018274AFE6A0FB32280B00657AB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 27268F5A73DF2522B852D35AF35C3461 /* Pods-MondoKit_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-MondoKit_Example/Pods-MondoKit_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-MondoKit_Example/Pods-MondoKit_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D299434AB35E7FD6F7921C8EF24742FF /* Debug */,
+				7EE7A78859F657F6BEFC651185B43192 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D3E6A28035A349ED629A8D015406547 /* Build configuration list for PBXNativeTarget "Pods-MondoKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D911A92275A4EEA29CD29EB32912E1E /* Debug */,
+				37AA204DB3C0D0B7322E34073F202F2D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6E37593DC1A04EC5F07F047BBC0332B2 /* Build configuration list for PBXNativeTarget "Pods-MondoKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CC93018274AFE6A0FB32280B00657AB2 /* Debug */,
+				79E966A69125A9812A2E9B6B468211E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F1B075452182B778C4F41111293C183C /* Build configuration list for PBXNativeTarget "MondoKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B51540EE6D37662DA76510D0DBB2A668 /* Debug */,
+				1D65A5414E980E64F070A33FA85424AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

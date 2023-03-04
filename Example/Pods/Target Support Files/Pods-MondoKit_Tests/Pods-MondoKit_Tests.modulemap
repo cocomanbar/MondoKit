@@ -1,0 +1,6 @@
+framework module Pods_MondoKit_Tests {
+  umbrella header "Pods-MondoKit_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

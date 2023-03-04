@@ -1,0 +1,83 @@
+{
+  "name": "MondoKit",
+  "version": "1.0.0",
+  "summary": "A short description of MondoKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cocomanbar/MondoKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cocomanbar": "125322078@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/cocomanbar/MondoKit.git",
+    "tag": "1.0.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "subspecs": [
+    {
+      "name": "Core",
+      "source_files": "MondoKit/Classes/Core/*"
+    },
+    {
+      "name": "Util",
+      "source_files": "MondoKit/Classes/Util/*"
+    },
+    {
+      "name": "NSString",
+      "source_files": "MondoKit/Classes/NSString/*"
+    },
+    {
+      "name": "NSAttributedString",
+      "source_files": "MondoKit/Classes/NSAttributedString/*"
+    },
+    {
+      "name": "NSJSONSerialization",
+      "source_files": "MondoKit/Classes/NSJSONSerialization/*"
+    },
+    {
+      "name": "NSSet",
+      "source_files": "MondoKit/Classes/NSSet/*"
+    },
+    {
+      "name": "NSOrderedSet",
+      "source_files": "MondoKit/Classes/NSOrderedSet/*"
+    },
+    {
+      "name": "NSArray",
+      "source_files": "MondoKit/Classes/NSArray/*"
+    },
+    {
+      "name": "NSDictionary",
+      "source_files": "MondoKit/Classes/NSDictionary/*"
+    },
+    {
+      "name": "NSCache",
+      "source_files": "MondoKit/Classes/NSCache/*"
+    },
+    {
+      "name": "NSData",
+      "source_files": "MondoKit/Classes/NSData/*"
+    },
+    {
+      "name": "UIView",
+      "source_files": "MondoKit/Classes/UIView/*"
+    },
+    {
+      "name": "NSObject",
+      "source_files": "MondoKit/Classes/NSObject/*"
+    },
+    {
+      "name": "KeyValueObserving",
+      "source_files": "MondoKit/Classes/KeyValueObserving/*"
+    },
+    {
+      "name": "NSTimer",
+      "source_files": "MondoKit/Classes/NSTimer/*"
+    }
+  ]
+}
