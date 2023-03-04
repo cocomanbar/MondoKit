@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   s.name             = 'MondoKit'
   s.version          = '1.0.0'
   s.summary          = 'A library that can protect against crashes online.'
-  s.description      = 'Dr. Mundo prevents crashes online.'
+  s.description      = 'Dr. Mundo that is a framework can protect against crashes online.'
   s.homepage         = 'https://github.com/cocomanbar/MondoKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'cocomanbar' => '125322078@qq.com' }
