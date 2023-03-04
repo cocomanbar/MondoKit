@@ -1,9 +1,4 @@
-# MondoKit
-
-[![CI Status](https://img.shields.io/travis/cocomanbar/MondoKit.svg?style=flat)](https://travis-ci.org/cocomanbar/MondoKit)
-[![Version](https://img.shields.io/cocoapods/v/MondoKit.svg?style=flat)](https://cocoapods.org/pods/MondoKit)
-[![License](https://img.shields.io/cocoapods/l/MondoKit.svg?style=flat)](https://cocoapods.org/pods/MondoKit)
-[![Platform](https://img.shields.io/cocoapods/p/MondoKit.svg?style=flat)](https://cocoapods.org/pods/MondoKit)
+# Dr.mondo
 
 ## Example
 
@@ -13,11 +8,11 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Installation
 
-MondoKit is available through [CocoaPods](https://cocoapods.org). To install
+Dr.mondo is available through [CocoaPods](https://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'MondoKit'
+  pod 'Dr.mondo', :git => 'git@github.com:cocomanbar/MondoKit.git'
 ```
 
 ## Author
@@ -26,7 +21,7 @@ cocomanbar, 125322078@qq.com
 
 ## License
 
-MondoKit is available under the MIT license. See the LICENSE file for more info.
+Dr.mondo is available under the MIT license. See the LICENSE file for more info.
 
 
 ```ruby
