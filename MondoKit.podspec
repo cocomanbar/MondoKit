@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name             = 'MondoKit'
+  s.name             = 'Dr.mondo'
   s.version          = '1.0.0'
   s.summary          = 'A library that can protect against crashes online.'
   s.description      = 'Dr. Mundo that is a framework can protect against crashes online.'
@@ -20,80 +20,80 @@ Pod::Spec.new do |s|
   
   s.subspec 'NSString' do |a|
       a.source_files = 'MondoKit/Classes/NSString/*'
-      a.dependency 'MondoKit/Core'
-      a.dependency 'MondoKit/Util'
+      a.dependency 'Dr.mondo/Core'
+      a.dependency 'Dr.mondo/Util'
   end
   
   s.subspec 'NSAttributedString' do |a|
       a.source_files = 'MondoKit/Classes/NSAttributedString/*'
-      a.dependency 'MondoKit/Core'
-      a.dependency 'MondoKit/Util'
+      a.dependency 'Dr.mondo/Core'
+      a.dependency 'Dr.mondo/Util'
   end
   
   s.subspec 'NSJSONSerialization' do |a|
       a.source_files = 'MondoKit/Classes/NSJSONSerialization/*'
-      a.dependency 'MondoKit/Core'
-      a.dependency 'MondoKit/Util'
+      a.dependency 'Dr.mondo/Core'
+      a.dependency 'Dr.mondo/Util'
   end
   
   s.subspec 'NSSet' do |a|
       a.source_files = 'MondoKit/Classes/NSSet/*'
-      a.dependency 'MondoKit/Core'
-      a.dependency 'MondoKit/Util'
+      a.dependency 'Dr.mondo/Core'
+      a.dependency 'Dr.mondo/Util'
   end
   
   s.subspec 'NSOrderedSet' do |a|
       a.source_files = 'MondoKit/Classes/NSOrderedSet/*'
-      a.dependency 'MondoKit/Core'
-      a.dependency 'MondoKit/Util'
+      a.dependency 'Dr.mondo/Core'
+      a.dependency 'Dr.mondo/Util'
   end
   
   s.subspec 'NSArray' do |a|
       a.source_files = 'MondoKit/Classes/NSArray/*'
-      a.dependency 'MondoKit/Core'
-      a.dependency 'MondoKit/Util'
+      a.dependency 'Dr.mondo/Core'
+      a.dependency 'Dr.mondo/Util'
   end
   
   s.subspec 'NSDictionary' do |a|
       a.source_files = 'MondoKit/Classes/NSDictionary/*'
-      a.dependency 'MondoKit/Core'
-      a.dependency 'MondoKit/Util'
+      a.dependency 'Dr.mondo/Core'
+      a.dependency 'Dr.mondo/Util'
   end
   
   s.subspec 'NSCache' do |a|
       a.source_files = 'MondoKit/Classes/NSCache/*'
-      a.dependency 'MondoKit/Core'
-      a.dependency 'MondoKit/Util'
+      a.dependency 'Dr.mondo/Core'
+      a.dependency 'Dr.mondo/Util'
   end
   
   s.subspec 'NSData' do |a|
       a.source_files = 'MondoKit/Classes/NSData/*'
-      a.dependency 'MondoKit/Core'
-      a.dependency 'MondoKit/Util'
+      a.dependency 'Dr.mondo/Core'
+      a.dependency 'Dr.mondo/Util'
   end
   
   s.subspec 'UIView' do |a|
       a.source_files = 'MondoKit/Classes/UIView/*'
-      a.dependency 'MondoKit/Core'
-      a.dependency 'MondoKit/Util'
+      a.dependency 'Dr.mondo/Core'
+      a.dependency 'Dr.mondo/Util'
   end
   
   s.subspec 'NSObject' do |a|
       a.source_files = 'MondoKit/Classes/NSObject/*'
-      a.dependency 'MondoKit/Core'
-      a.dependency 'MondoKit/Util'
+      a.dependency 'Dr.mondo/Core'
+      a.dependency 'Dr.mondo/Util'
   end
   
   s.subspec 'KeyValueObserving' do |a|
       a.source_files = 'MondoKit/Classes/KeyValueObserving/*'
-      a.dependency 'MondoKit/Core'
-      a.dependency 'MondoKit/Util'
+      a.dependency 'Dr.mondo/Core'
+      a.dependency 'Dr.mondo/Util'
   end
   
   s.subspec 'NSTimer' do |a|
       a.source_files = 'MondoKit/Classes/NSTimer/*'
-      a.dependency 'MondoKit/Core'
-      a.dependency 'MondoKit/Util'
+      a.dependency 'Dr.mondo/Core'
+      a.dependency 'Dr.mondo/Util'
   end
   
   
