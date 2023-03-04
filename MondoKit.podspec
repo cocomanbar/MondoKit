@@ -1,10 +1,8 @@
 Pod::Spec.new do |s|
   s.name             = 'MondoKit'
   s.version          = '1.0.0'
-  s.summary          = 'A short description of MondoKit.'
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+  s.summary          = 'A library that can protect against crashes online.'
+  s.description      = 'Dr. Mundo prevents crashes online.'
   s.homepage         = 'https://github.com/cocomanbar/MondoKit'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'cocomanbar' => '125322078@qq.com' }
